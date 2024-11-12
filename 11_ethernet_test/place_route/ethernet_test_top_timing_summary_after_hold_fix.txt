@@ -1,0 +1,132 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_2
+                        ethernet_test_top|rgmii_rxc_2
+                                                   991.739       0.000              0           5332
+ ethernet_test_top|clk_50m
+                        ethernet_test_top|clk_50m
+                                                   999.014       0.000              0             20
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                   991.119       0.000              0           6315
+ DebugCore_JCLK         DebugCore_JCLK              23.984       0.000              0            625
+ DebugCore_CAPTURE      DebugCore_JCLK              21.112       0.000              0            111
+ DebugCore_JCLK         DebugCore_CAPTURE           47.494       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_2
+                        ethernet_test_top|rgmii_rxc_2
+                                                     0.312       0.000              0           5332
+ ethernet_test_top|clk_50m
+                        ethernet_test_top|clk_50m
+                                                     0.339       0.000              0             20
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                     0.312       0.000              0           6315
+ DebugCore_JCLK         DebugCore_JCLK               0.313       0.000              0            625
+ DebugCore_CAPTURE      DebugCore_JCLK              24.645       0.000              0            111
+ DebugCore_JCLK         DebugCore_CAPTURE            0.404       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                   997.628       0.000              0            406
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                     0.638       0.000              0            406
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_2
+                        ethernet_test_top|rgmii_rxc_2
+                                                   994.027       0.000              0           5332
+ ethernet_test_top|clk_50m
+                        ethernet_test_top|clk_50m
+                                                   999.271       0.000              0             20
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                   993.772       0.000              0           6315
+ DebugCore_JCLK         DebugCore_JCLK              24.293       0.000              0            625
+ DebugCore_CAPTURE      DebugCore_JCLK              22.313       0.000              0            111
+ DebugCore_JCLK         DebugCore_CAPTURE           48.100       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_2
+                        ethernet_test_top|rgmii_rxc_2
+                                                     0.250       0.000              0           5332
+ ethernet_test_top|clk_50m
+                        ethernet_test_top|clk_50m
+                                                     0.264       0.000              0             20
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                     0.251       0.000              0           6315
+ DebugCore_JCLK         DebugCore_JCLK               0.251       0.000              0            625
+ DebugCore_CAPTURE      DebugCore_JCLK              24.906       0.000              0            111
+ DebugCore_JCLK         DebugCore_CAPTURE            0.536       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                   998.264       0.000              0            406
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ethernet_test_top|rgmii_rxc_1
+                        ethernet_test_top|rgmii_rxc_1
+                                                     0.468       0.000              0            406
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

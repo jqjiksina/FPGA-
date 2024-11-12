@@ -1,0 +1,423 @@
+##### Written on 2024/10/30 19:54:50 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	adda
+
+Constraint File(s) : 
+	E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc
+
+##### SUMMARY ######################################################
+
+Found 91 error(s), 3 critical warning(s), 1 warning(s), out of 206 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:clk_50m} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 2)] Object 'p:clk_50m' can not be found in current view.
+
+define_attribute {p:clk_50m} {PAP_IO_LOC} {P20}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 3)] Object 'p:clk_50m' can not be found in current view.
+
+define_attribute {p:clk_50m} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 4)] Object 'p:clk_50m' can not be found in current view.
+
+define_attribute {p:clk_50m} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 5)] Object 'p:clk_50m' can not be found in current view.
+
+define_attribute {p:clk_50m} {PAP_IO_UNUSED} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 6)] Object 'p:clk_50m' can not be found in current view.
+
+define_attribute {p:rgmii_rx_ctl} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 13)] Object 'p:rgmii_rx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_rx_ctl} {PAP_IO_LOC} {F9}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 14)] Object 'p:rgmii_rx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_rx_ctl} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 15)] Object 'p:rgmii_rx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_rx_ctl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 16)] Object 'p:rgmii_rx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_rx_ctl} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 17)] Object 'p:rgmii_rx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_rxc} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 18)] Object 'p:rgmii_rxc' can not be found in current view.
+
+define_attribute {p:rgmii_rxc} {PAP_IO_LOC} {F14}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 19)] Object 'p:rgmii_rxc' can not be found in current view.
+
+define_attribute {p:rgmii_rxc} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 20)] Object 'p:rgmii_rxc' can not be found in current view.
+
+define_attribute {p:rgmii_rxc} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 21)] Object 'p:rgmii_rxc' can not be found in current view.
+
+define_attribute {p:rgmii_rxc} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 22)] Object 'p:rgmii_rxc' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 23)] Object 'p:rgmii_rxd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[0]} {PAP_IO_LOC} {H10}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 24)] Object 'p:rgmii_rxd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 25)] Object 'p:rgmii_rxd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 26)] Object 'p:rgmii_rxd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 27)] Object 'p:rgmii_rxd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 28)] Object 'p:rgmii_rxd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[1]} {PAP_IO_LOC} {H11}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 29)] Object 'p:rgmii_rxd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 30)] Object 'p:rgmii_rxd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 31)] Object 'p:rgmii_rxd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 32)] Object 'p:rgmii_rxd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[2]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 33)] Object 'p:rgmii_rxd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[2]} {PAP_IO_LOC} {G13}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 34)] Object 'p:rgmii_rxd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 35)] Object 'p:rgmii_rxd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 36)] Object 'p:rgmii_rxd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 37)] Object 'p:rgmii_rxd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 38)] Object 'p:rgmii_rxd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[3]} {PAP_IO_LOC} {H13}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 39)] Object 'p:rgmii_rxd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 40)] Object 'p:rgmii_rxd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 41)] Object 'p:rgmii_rxd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_rxd[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 42)] Object 'p:rgmii_rxd[3]' can not be found in current view.
+
+define_attribute {p:led} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 43)] Object 'p:led' can not be found in current view.
+
+define_attribute {p:led} {PAP_IO_LOC} {B2}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 44)] Object 'p:led' can not be found in current view.
+
+define_attribute {p:led} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 45)] Object 'p:led' can not be found in current view.
+
+define_attribute {p:led} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 46)] Object 'p:led' can not be found in current view.
+
+define_attribute {p:led} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 47)] Object 'p:led' can not be found in current view.
+
+define_attribute {p:led} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 48)] Object 'p:led' can not be found in current view.
+
+define_attribute {p:led} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 49)] Object 'p:led' can not be found in current view.
+
+define_attribute {p:phy_rstn} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 50)] Object 'p:phy_rstn' can not be found in current view.
+
+define_attribute {p:phy_rstn} {PAP_IO_LOC} {B20}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 51)] Object 'p:phy_rstn' can not be found in current view.
+
+define_attribute {p:phy_rstn} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 52)] Object 'p:phy_rstn' can not be found in current view.
+
+define_attribute {p:phy_rstn} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 53)] Object 'p:phy_rstn' can not be found in current view.
+
+define_attribute {p:phy_rstn} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 54)] Object 'p:phy_rstn' can not be found in current view.
+
+define_attribute {p:phy_rstn} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 55)] Object 'p:phy_rstn' can not be found in current view.
+
+define_attribute {p:phy_rstn} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 56)] Object 'p:phy_rstn' can not be found in current view.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 57)] Object 'p:rgmii_tx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_LOC} {B18}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 58)] Object 'p:rgmii_tx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 59)] Object 'p:rgmii_tx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 60)] Object 'p:rgmii_tx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 61)] Object 'p:rgmii_tx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 62)] Object 'p:rgmii_tx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 63)] Object 'p:rgmii_tx_ctl' can not be found in current view.
+
+define_attribute {p:rgmii_txc} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 64)] Object 'p:rgmii_txc' can not be found in current view.
+
+define_attribute {p:rgmii_txc} {PAP_IO_LOC} {G16}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 65)] Object 'p:rgmii_txc' can not be found in current view.
+
+define_attribute {p:rgmii_txc} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 66)] Object 'p:rgmii_txc' can not be found in current view.
+
+define_attribute {p:rgmii_txc} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 67)] Object 'p:rgmii_txc' can not be found in current view.
+
+define_attribute {p:rgmii_txc} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 68)] Object 'p:rgmii_txc' can not be found in current view.
+
+define_attribute {p:rgmii_txc} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 69)] Object 'p:rgmii_txc' can not be found in current view.
+
+define_attribute {p:rgmii_txc} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 70)] Object 'p:rgmii_txc' can not be found in current view.
+
+define_attribute {p:rgmii_txd[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 71)] Object 'p:rgmii_txd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[0]} {PAP_IO_LOC} {F17}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 72)] Object 'p:rgmii_txd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 73)] Object 'p:rgmii_txd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 74)] Object 'p:rgmii_txd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[0]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 75)] Object 'p:rgmii_txd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 76)] Object 'p:rgmii_txd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[0]} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 77)] Object 'p:rgmii_txd[0]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 78)] Object 'p:rgmii_txd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_LOC} {D17}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 79)] Object 'p:rgmii_txd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 80)] Object 'p:rgmii_txd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 81)] Object 'p:rgmii_txd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 82)] Object 'p:rgmii_txd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 83)] Object 'p:rgmii_txd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 84)] Object 'p:rgmii_txd[1]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 85)] Object 'p:rgmii_txd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_LOC} {C18}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 86)] Object 'p:rgmii_txd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 87)] Object 'p:rgmii_txd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 88)] Object 'p:rgmii_txd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 89)] Object 'p:rgmii_txd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 90)] Object 'p:rgmii_txd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 91)] Object 'p:rgmii_txd[2]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 92)] Object 'p:rgmii_txd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_LOC} {A18}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 93)] Object 'p:rgmii_txd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 94)] Object 'p:rgmii_txd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 95)] Object 'p:rgmii_txd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 96)] Object 'p:rgmii_txd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 97)] Object 'p:rgmii_txd[3]' can not be found in current view.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_SLEW} {FAST}
+
+	E: ConstraintEditor-0046: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 98)] Object 'p:rgmii_txd[3]' can not be found in current view.
+
+define_attribute {p:da_data[7]} {PAP_IO_LOC} {AB13}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 102)] | Port da_data[7] has been placed at location AB13, whose type is share pin.
+
+define_attribute {p:da_data[6]} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 109)] | Port da_data[6] has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:rst_n} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 205)] | Port rst_n has been placed at location K18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'clk_50M' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

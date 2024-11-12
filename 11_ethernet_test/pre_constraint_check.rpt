@@ -1,0 +1,28 @@
+# Written on 02/11/2024   14:17:30
+
+##### INFO ########################################################
+
+Current device : PGL50H-6FBG484
+Top Module : top
+Constraint File(s) : E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc
+
+##### SUMMARY ############################################################
+
+Found 0 error(s), 11 critical_warning(s), 0 warning(s).
+
+##### DETAILS ############################################################
+
+
+
+C: ConstraintEditor-2002: "IO Table" row:18 | Port mem_dq[14] has been placed at location P3, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:21 | Port mem_dq[11] has been placed at location M1, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:23 | Port mem_dq[9] has been placed at location M2, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:41 | Port da_data[7] has been placed at location AB13, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:42 | Port da_data[6] has been placed at location Y13, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:71 | Port rgmii_txd[3] has been placed at location A18, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:72 | Port rgmii_txd[2] has been placed at location C18, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:73 | Port rgmii_txd[1] has been placed at location D17, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:101 | Port phy_rstn has been placed at location B20, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:102 | Port rgmii_tx_ctl has been placed at location B18, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:107 | Port rst_n has been placed at location K18, whose type is share pin.
+

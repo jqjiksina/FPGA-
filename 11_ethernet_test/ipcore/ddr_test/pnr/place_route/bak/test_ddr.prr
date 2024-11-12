@@ -1,0 +1,18 @@
+
+Inputs and Outputs :
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                                                    
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| Input      | E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ipcore/ddr_test/pnr/device_map/test_ddr_map.adf     
+|            | E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ipcore/ddr_test/pnr/device_map/test_ddr.pcf         
+|            | E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ipcore/ddr_test/pnr/ddr_test.rcf                    
+| Output     | E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ipcore/ddr_test/pnr/place_route/prr.db              
+|            | E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ipcore/ddr_test/pnr/place_route/test_ddr.prr        
++--------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: pnr -optimize_multi_corner_timing -fix_hold_violation 
+Peak memory: 324 MB
+Total CPU  time to pnr completion : 0h:0m:1s
+Process Total CPU  time to pnr completion : 0h:0m:1s
+Total real time to pnr completion : 0h:0m:6s

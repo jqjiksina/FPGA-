@@ -1,0 +1,110 @@
+##### Written on 2024/11/11 20:33:07 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	top
+
+Constraint File(s) : 
+	E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 16 critical warning(s), 0 warning(s), out of 397 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:phy_rstn} {PAP_IO_LOC} {B20}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 46)] | Port phy_rstn has been placed at location B20, whose type is share pin.
+
+define_attribute {p:rgmii_tx_ctl} {PAP_IO_LOC} {B18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 53)] | Port rgmii_tx_ctl has been placed at location B18, whose type is share pin.
+
+define_attribute {p:rgmii_txd[1]} {PAP_IO_LOC} {D17}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 74)] | Port rgmii_txd[1] has been placed at location D17, whose type is share pin.
+
+define_attribute {p:rgmii_txd[2]} {PAP_IO_LOC} {C18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 81)] | Port rgmii_txd[2] has been placed at location C18, whose type is share pin.
+
+define_attribute {p:rgmii_txd[3]} {PAP_IO_LOC} {A18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 88)] | Port rgmii_txd[3] has been placed at location A18, whose type is share pin.
+
+define_attribute {p:da_data[7]} {PAP_IO_LOC} {AB13}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 97)] | Port da_data[7] has been placed at location AB13, whose type is share pin.
+
+define_attribute {p:da_data[6]} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 104)] | Port da_data[6] has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:rst_n} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 200)] | Port rst_n has been placed at location K18, whose type is share pin.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 819)] | Port g_in[5] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 824)] | Port g_in[4] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 829)] | Port g_in[3] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:g_in[2]} {PAP_IO_LOC} {W18}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 834)] | Port g_in[2] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 839)] | Port g_in[1] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {V20}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 889)] | Port iic_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {V19}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 903)] | Port iic_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:pix_clk_in} {PAP_IO_LOC} {AA12}
+
+	C: ConstraintEditor-2002: [E:/DELL/Desktop/FPGA/FPGA_DevelopKnit/MES50HP_v3/2_Demo/11_ethernet_test/ethernet_test.fdc(line number: 934)] | Port pix_clk_in has been placed at location AA12, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+
